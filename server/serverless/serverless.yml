@@ -1,0 +1,29 @@
+service: xgen-marketplace-api
+
+frameworkVersion: '>=1.0.0 <2.0.0'
+
+plugins:
+  - serverless-bundle
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: dev
+  region: us-east-1
+
+functions:
+  get-applications:
+    handler: applications.getAll
+    events:
+      - http:
+          path: applications
+          method: get
+          cors: true
+  get-subscriptions:
+    handler: subscriptions.get
+    events:
+      - http:
+          path: subscriptions
+          method: get
+          cors: true
+          authorizer: aws_iam

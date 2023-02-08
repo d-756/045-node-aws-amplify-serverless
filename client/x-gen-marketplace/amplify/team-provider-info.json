@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-xgenmarketplace-dev-185630-authRole",
+            "UnauthRoleArn": "arn:aws:iam::370068127061:role/amplify-xgenmarketplace-dev-185630-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::370068127061:role/amplify-xgenmarketplace-dev-185630-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-xgenmarketplace-dev-185630-deployment",
+            "UnauthRoleName": "amplify-xgenmarketplace-dev-185630-unauthRole",
+            "StackName": "amplify-xgenmarketplace-dev-185630",
+            "StackId": "arn:aws:cloudformation:us-east-1:370068127061:stack/amplify-xgenmarketplace-dev-185630/a98d96d0-9891-11ea-b38d-0eac0ccc6c9d",
+            "AmplifyAppId": "d3pdqpwrrz8khm"
+        },
+        "categories": {
+            "auth": {
+                "xgenmarketplacedb92bbdb": {}
+            }
+        }
+    }
+}
